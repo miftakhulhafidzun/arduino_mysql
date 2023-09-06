@@ -1,0 +1,5 @@
+CREATE TABLE distance (
+    id INT AUTO_INCREMENT PRIMARY KEY,
+    distance_cm FLOAT,
+    timestamp TIMESTAMP DEFAULT CURRENT_TIMESTAMP
+);
